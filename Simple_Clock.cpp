@@ -8,9 +8,9 @@ class _clock {
 private:
 	int hour, min, sec;
 public:
-	void setTime(int utc_plus);
-	void clockRun(int utc_plus);
-	void clockRing(int min_value, int sec_value, int times);
+	void setTime(int);
+	void clockRun(int);
+	void clockRing(int, int, int);
 };
 
 void _clock::setTime(int utc_plus) {
